@@ -1,0 +1,8 @@
+<div class='item'
+  data-name='<perch:content id="project_name" type="text" label="Project Name:" required="true" title="true" />'
+  data-client='<perch:content id="client_name" type="text" label="Client Name:" required="false" title="true" />'
+  data-description='<perch:content id="product_description" type="textarea" label="Project Description:" markdown="true" editor="markitup"/>'
+  data-status='<perch:content id="status" type="text" label="Status:" required="false" title="true" />'
+  data-images='<perch:repeater id="images" label="Images"><a href="<perch:content type="image" id="image" label="Image" />"><img src="<perch:content type="image" id="image" label="Image" />"/></a></perch:repeater>'>
+  <a href="#<perch:content id="project_name" type="text" urlify="true" />"><img src='<perch:content id="product_image" type="image" label="product_image" required="true" width="153" height="153" crop="true"/>' /></a>
+</div>
